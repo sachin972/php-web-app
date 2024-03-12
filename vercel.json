@@ -1,10 +1,28 @@
 {
-    "functions": {
-      "*.php": {
-        "runtime": "vercel-php@0.6.0"
-      }
-    },
-    "routes": [
-      { "src": "/(.*)",  "dest": "index.php" }
+    "version": 2,
+    "builds": [
+      { "src": "index.php", "use": "vercel-php@0.6.0" },
+      { "src": "contact.php", "use": "vercel-php@0.6.0" },
+      { "src": "aboutus.php", "use": "vercel-php@0.6.0" },
+      { "src": "Carrier.php", "use": "vercel-php@0.6.0" },
+      { "src": "clients.php", "use": "vercel-php@0.6.0" },
+      { "src": "company_news.php", "use": "vercel-php@0.6.0" },
+      { "src": "FinancialSector.php", "use": "vercel-php@0.6.0" },
+      { "src": "Healthcare.php", "use": "vercel-php@0.6.0" },
+      { "src": "industries.php", "use": "vercel-php@0.6.0" },
+      { "src": "innovative_services.php", "use": "vercel-php@0.6.0" },
+      { "src": "Loyalty_&_Reward.php", "use": "vercel-php@0.6.0" },
+      { "src": "solution.php", "use": "vercel-php@0.6.0" },
+      { "src": "Travel_&_Hospitality.php", "use": "vercel-php@0.6.0" },
+      { "src": "js/jquery.min.js"},
+      { "src": "js/popper.min.js"},
+      { "src": "js/bootstrap.min.js"},
+      { "src": "js/plugins.js"},
+      { "src": "js/animated.js"},
+      { "src": "js/dzsparallaxer.js"},
+      { "src": "js/jquery.syotimer.min.js"},
+      { "src": "js/script.js"},
+      { "src": "css/style.css"},
+      { "src": "css/responsive.css"}
     ]
-  }
+}
