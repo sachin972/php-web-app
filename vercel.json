@@ -2,6 +2,6 @@
   "version": 2,
   "builds": [
     { "src": "index.php", "use": "vercel-php@0.6.0" },
-    { "src": "user.php", "use": "vercel-php@0.6.0" }
+    { "src": "contact.php", "use": "vercel-php@0.6.0" }
   ]
 }
